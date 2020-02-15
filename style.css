@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    /* background-color: black; */
+    scroll-behavior: smooth;
+}
+
+.pic{
+    max-height: 300px;
+    max-width: 300px;
+    min-width: 220px;
+    min-height: 150px;
+}
+
+p {
+    font-family: 'Comfortaa', cursive;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    font-weight: bold;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.btn_c:hover {
+    cursor: pointer;
+    background-color: #ffe398;
+    color: black;
+    border: none;
+    transform: translateY(-10px);
+}
+
+.card-body{
+    font-size: 20px;
+}
